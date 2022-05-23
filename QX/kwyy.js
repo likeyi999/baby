@@ -1,20 +1,20 @@
 
 [rewrite_local]
-# ～ KWYY_酷我聽書Block_ad@ddgksf2013
+# ～ KWYY_酷我聽書Block_ad
 https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright url reject-dict
-# ～ KWYY_酷我聽書PayInfo@ddgksf2013
+# ～ KWYY_酷我聽書PayInfo
 ^https?:\/\/audiobookpay\.kuwo\.cn/a\.p url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
-# ～ KWYY_酷我聽書UserInfo@ddgksf2013
+# ～ KWYY_酷我聽書UserInfo
 https://tingshu.kuwo.cn/v2/api/user/info url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
-# ～ KWYY_酷我聽書UserInfo@ddgksf2013
+# ～ KWYY_酷我聽書UserInfo
 https?:\/\/audiobooks\.kuwo\.cn\/v2\/api\/user\/info url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
-# ～ KWYY_酷我聽書UserStatus@ddgksf2013
+# ～ KWYY_酷我聽書UserStatus
 https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
-# ～ KWYY_酷我解鎖Vip皮膚設置@ddgksf2013
+# ～ KWYY_酷我解鎖Vip皮膚設置
 ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme  url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
 # ～ KWYY_酷我解鎖無損下載（先選聽無損，再下載無損）@ddgksf2013
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d url script-request-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
-# ～ KWYY_酷我音樂會員@ddgksf2013
+# ～ KWYY_酷我音樂會員
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
 [mitm] 
 hostname = musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn
