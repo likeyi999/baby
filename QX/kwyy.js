@@ -12,7 +12,7 @@ https?:\/\/audiobooks\.kuwo\.cn\/v2\/api\/user\/info url script-response-body ht
 https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
 # ～ KWYY_酷我解鎖Vip皮膚設置
 ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme  url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
-# ～ KWYY_酷我解鎖無損下載（先選聽無損，再下載無損）@ddgksf2013
+# ～ KWYY_酷我解鎖無損下載（先選聽無損，再下載無損）
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d url script-request-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
 # ～ KWYY_酷我音樂會員
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js
