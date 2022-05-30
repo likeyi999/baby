@@ -1,0 +1,6 @@
+#!name=全能扫描王
+#!desc=解锁会员
+[Script]
+扫描全能王 = type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/camscanner.js,script-update-interval=0
+[MITM]
+hostname = %APPEND% ap*.intsig.net
