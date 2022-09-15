@@ -2,6 +2,9 @@
 USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
 USER-AGENT,MApi* // Dianping
+# XMLY
+DOMAIN-KEYWORD,ximalaya
+DOMAIN-KEYWORD,xmcdn
 # Ali
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,taobao
