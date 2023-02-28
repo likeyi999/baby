@@ -13,6 +13,7 @@ DOMAIN,download.jetbrains.com
 DOMAIN,origin-a.akamaihd.net // Origin Download
 # ---(Microsoft)---
 # > Outlook
+DOMAIN-KEYWORD,hotmail
 DOMAIN,outlook.office365.com
 DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.office365.com
