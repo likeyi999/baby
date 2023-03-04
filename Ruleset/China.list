@@ -1,8 +1,16 @@
 # XMLY
 DOMAIN-KEYWORD,ximalaya
 DOMAIN-KEYWORD,xmcdn
-# 百度
-DOMAIN-KEYWORD,baidu 
+
+# Baidu/iqiyi
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubcr.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,yunjiasu-cdn.net
+DOMAIN-KEYWORD,baidu
+# Alibaba
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,alicdn.com
 #QQ
 DOMAIN-KEYWORD,qq
 DOMAIN-KEYWORD,tencent
