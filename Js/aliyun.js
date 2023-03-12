@@ -63,13 +63,13 @@ if(!lk.isExecComm) {
                     "name": "阿里云盘token",
                     "val": "",
                     "type": "text",
-                    "desc": "阿里云盘token"
+                    "desc": "09c5ec1e2f3643958f0f437abe11b7a6"
                 }, {
                     "id": aliYunPanRefreshTokenKey,
                     "name": "阿里云盘refresh_token",
                     "val": "",
                     "type": "text",
-                    "desc": "阿里云盘refresh_token"
+                    "desc": "09c5ec1e2f3643958f0f437abe11b7a6"
                 }
             ],
             "keys": [aliYunPanTokenKey, aliYunPanRefreshTokenKey]
