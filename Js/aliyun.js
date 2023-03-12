@@ -12,24 +12,12 @@ Surge 4.2.0+ 脚本配置:
 
 [Script]
 # > 阿里云盘签到
-https://auth.aliyundrive.com/v2/account/token
-阿里云盘签到cookie = requires-body=1,type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
-阿里云盘签到 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 
 
-************************
-QuantumultX 脚本配置:
-************************
+阿里云盘签到 = type=cron,cronexp="0 10 0 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/likeyi999/baby/surge/Js/aliyun.js
 
-[rewrite_local]
-#阿里云盘签到cookie
-^https:\/\/auth.aliyundrive.com\/v2\/account\/token url script-response-body https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 
-[task_local]
-0 10 0 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
 
-************************
-LOON 脚本配置:
 ************************
 
 [Script]
