@@ -1,6 +1,0 @@
-#!name=Notability
-#!desc=解锁订阅时间到2099年。解锁成功后删除该模块就好。
-[Script]
-Notability = type=http-response,pattern=^https:\/\/notability\.com\/subscriptions,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/PoetryU/Scientist/master/Scripts/notabilityvip.js,script-update-interval=0
-[MITM]
-hostname = %APPEND% notability.com
