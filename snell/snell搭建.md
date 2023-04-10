@@ -1,4 +1,4 @@
-本文主要参考了神机（花姐）[Surge | 部署 Snell Server – DivineEngine | Site](https://divineengine.net/article/deploying-a-snell-server/)，只是根据自己搭建过程做了一点点改动。感谢花姐以及surge pro群里热心指导的各位。
+复制备份一份备用 原作者地址：https://github.com/Zeaphyou/GetSomeCats/blob/Surge/简单搭建Snell服务.md
 
 # 用ssh连上你的vps后，输入：
 ```
@@ -83,7 +83,7 @@ ipv6 = false
 # 参数说明：
 listen：监听地址及端口；
 psk：密钥；
-ipv6：如果需要 IPv6 支持将值为 – true；
+ipv6：如果需要 IPv6 支持将值为 – true，然后设置listen = ::0:11807；
 
 # 然后配置 Systemd 服务文件：
 ```
