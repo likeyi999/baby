@@ -79,11 +79,20 @@ sudo vim /etc/snell/snell-server.conf
 listen = 0.0.0.0:11807
 psk = AijHCeos15IvqDZTb1cJMX5GcgZzIVE
 ipv6 = false
+obfs = http
 ```
 # 参数说明：
 listen：监听地址及端口；
 psk：密钥；
-ipv6：如果需要 IPv6 支持将值为 – true，然后设置listen = ::0:11807；
+obfs：off 为关闭混淆，或使用流量混淆 http；
+ipv6：如果需要 IPv6 支持将值为 – true，然后如下设置 ；
+```
+[snell-server]
+listen = ::0:11807
+psk = AijHCeos15IvqDZTb1cJMX5GcgZzIVE
+ipv6 = true
+obfs = http
+```
 
 # 然后配置 Systemd 服务文件：
 ```
