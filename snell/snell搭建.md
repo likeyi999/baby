@@ -85,7 +85,7 @@ obfs = http
 listen：监听地址及端口；
 psk：密钥；
 obfs：off 为关闭混淆，或使用流量混淆 http；
-ipv6：如果需要 IPv6 支持将值为 – true，然后如下设置 ；
+ipv6：如果需要 IPv6 支持将值改为 – true，然后如下设置 ；
 ```
 [snell-server]
 listen = ::0:11807
@@ -98,7 +98,7 @@ obfs = http
 ```
 sudo vim /lib/systemd/system/snell.service
 ```
-## 将下面的复制粘贴进去，按esc 后输入“：wq”保存退出
+## 将下面的复制粘贴进去，按esc 后输入“:wq”保存退出
 ```
 [Unit]
 Description=Snell Proxy Service
