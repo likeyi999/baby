@@ -8,7 +8,7 @@ payload:
   - DOMAIN-SUFFIX,goodisp.org
   - DOMAIN-SUFFIX,9521732.xyz
   - DOMAIN-SUFFIX,mulgore.net
-  - IP-CIDR,202.61.255.248/32
+  - IP-CIDR-202.61.255.248/32
   - DOMAIN-SUFFIX,9191001.xyz
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-KEYWORD,misakaf
