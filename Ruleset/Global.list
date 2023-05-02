@@ -2,12 +2,6 @@
 DOMAIN-SUFFIX,iqiq.io
 DOMAIN,app.noy.asia
 DOMAIN-SUFFIX,noy.asia
-DOMAIN,cdn.auth0.com
-DOMAIN,cdn.openai.com
-DOMAIN,challenges.cloudflare.com
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
