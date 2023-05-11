@@ -12,3 +12,4 @@ payload:
   - DOMAIN-SUFFIX,9191001.xyz
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-KEYWORD,misakaf
+  - IP-CIDR,219.78.234.119/24
