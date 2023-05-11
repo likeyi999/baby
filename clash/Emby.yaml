@@ -1,6 +1,6 @@
 # emby
 payload:
-  
+  - IP-CIDR,219.78.234.119/24
   - DOMAIN,ju.dog
   - DOMAIN-SUFFIX,ju.dog
   - DOMAIN,film.goodisp.org
@@ -12,4 +12,4 @@ payload:
   - DOMAIN-SUFFIX,9191001.xyz
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-KEYWORD,misakaf
-  - IP-CIDR,219.78.234.119/24
+  
