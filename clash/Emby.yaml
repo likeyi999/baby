@@ -1,14 +1,14 @@
 # emby
 payload:
   - IP-CIDR,219.78.234.119/24
+  - IP-CIDR,202.61.255.248/32
   - DOMAIN,ju.dog
   - DOMAIN-SUFFIX,ju.dog
   - DOMAIN,film.goodisp.org
   - DOMAIN-SUFFIX,embyplus.org
   - DOMAIN-SUFFIX,goodisp.org
   - DOMAIN-SUFFIX,9521732.xyz
-  - DOMAIN-SUFFIX,mulgore.net
-  - IP-CIDR,202.61.255.248/32
+  - DOMAIN-SUFFIX,mulgore.net  
   - DOMAIN-SUFFIX,9191001.xyz
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-KEYWORD,misakaf
