@@ -12,4 +12,4 @@ payload:
   - DOMAIN-SUFFIX,9191001.xyz
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-KEYWORD,misakaf
-  
+  - DOMAIN-SUFFIX,123456.al
