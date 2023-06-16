@@ -1,4 +1,5 @@
 # (D.C.S.G?)国际网络分流
+IP-CIDR,5.2.74.143/32,no-resolve
 IP-CIDR,134.122.115.173/32,no-resolve
 DOMAIN,ssc.33across.com
 DOMAIN,sm.ms
