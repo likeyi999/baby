@@ -1,6 +1,4 @@
-# (D.C.S.G?)国际网络分流
-IP-CIDR,5.2.74.143/32,no-resolve
-IP-CIDR,134.122.115.173/32,no-resolve
+# 根据个人需求添加
 DOMAIN,ssc.33across.com
 DOMAIN,sm.ms
 DOMAIN-SUFFIX,sm.ms
@@ -9,6 +7,7 @@ DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,iqiq.io
 DOMAIN,app.noy.asia
 DOMAIN-SUFFIX,noy.asia
+# 神机(D.C.S.G?)国际网络分流
 DOMAIN-SUFFIX,9cache.com
 DOMAIN-SUFFIX,9gag.com
 DOMAIN-SUFFIX,abc.com
