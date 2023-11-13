@@ -1,0 +1,15 @@
+# Emby
+DOMAIN,ju.dog
+IP-CIDR6,2a03:4000:2a:1ec:a89a:4cff:fee8:c9f8,no-resolve
+DOMAIN-SUFFIX,ohhhh.org
+DOMAIN-SUFFIX,123456.al
+DOMAIN-SUFFIX,ju.dog
+DOMAIN,film.goodisp.org
+DOMAIN-SUFFIX,embyplus.org
+DOMAIN-SUFFIX,goodisp.org
+DOMAIN-SUFFIX,9521732.xyz
+DOMAIN-SUFFIX,mulgore.net
+IP-CIDR,202.61.255.248/32,no-resolve
+DOMAIN-SUFFIX,9191001.xyz,
+DOMAIN-SUFFIX,misakaf.org
+DOMAIN-KEYWORD,misakaf
