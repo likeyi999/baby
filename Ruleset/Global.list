@@ -1,4 +1,8 @@
 # 根据个人需求添加
+DOMAIN,whois.iana.org
+DOMAIN,whois.verisign-grs.com
+DOMAIN,whois.markmonitor.com
+DOMAIN,whois.ripe.net
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN,ssc.33across.com
 DOMAIN,sm.ms
