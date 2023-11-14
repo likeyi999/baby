@@ -39,8 +39,10 @@
 ^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)? - reject
 
 [Script]
-喜马拉雅_去除我的页面Ad = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/xmly_json.js,script-update-interval=0
-喜马拉雅_屏蔽Tab页滚动 = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/xmly_json.js,script-update-interval=0
-喜马拉雅_屏蔽首页动态 = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/xmly_json.js,script-update-interval=0
+喜马拉雅_屏蔽首页横幅 = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js,script-update-interval=0
+喜马拉雅_首页顶部去除直播 = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/customCategories,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js,script-update-interval=0
+喜马拉雅_去除我的页面Ad = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/mobile-user\/v\d\/homePage,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js,script-update-interval=0
+喜马拉雅_屏蔽Tab页滚动 = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-category\/v\d/category,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js,script-update-interval=0
+喜马拉雅_屏蔽首页动态 = type=http-response,pattern=^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/ximalaya_json.js,script-update-interval=0
 [MITM]
 hostname = %APPEND% *.xima*.*, *.xmcdn.*
