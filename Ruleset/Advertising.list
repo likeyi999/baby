@@ -3,9 +3,9 @@
 DOMAIN-SUFFIX,huatuo.qq.com
 DOMAIN,wspeed.qq.com
 DOMAIN-KEYWORD,adservice
-#DOMAIN-SUFFIX,umeng.com
-#DOMAIN-SUFFIX,umengcloud.com
-#DOMAIN-SUFFIX,ulogs.umeng.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,ulogs.umeng.com
 # > YOUKU
 DOMAIN-SUFFIX,atm.youku.com
 DOMAIN,ad.mobile.youku.com
