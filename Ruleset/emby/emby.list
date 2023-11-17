@@ -1,6 +1,5 @@
 # Emby
 DOMAIN,ju.dog
-IP-CIDR6,2a03:4000:2a:1ec:a89a:4cff:fee8:c9f8,no-resolve
 DOMAIN-SUFFIX,ohhhh.org
 DOMAIN-SUFFIX,123456.al
 DOMAIN-SUFFIX,ju.dog
