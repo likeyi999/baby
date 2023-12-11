@@ -1,12 +1,9 @@
 # Emby
-DOMAIN,ju.dog
 DOMAIN-SUFFIX,ohhhh.org
 DOMAIN-SUFFIX,123456.al
-DOMAIN-SUFFIX,ju.dog
 DOMAIN,film.goodisp.org
 DOMAIN-SUFFIX,goodisp.org
 DOMAIN-SUFFIX,9521732.xyz
-DOMAIN-SUFFIX,mulgore.net
 IP-CIDR,202.61.255.248/32,no-resolve
 DOMAIN-SUFFIX,9191001.xyz,
 DOMAIN-SUFFIX,misakaf.org
