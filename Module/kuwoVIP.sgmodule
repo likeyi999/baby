@@ -1,8 +1,0 @@
-#!name=kuwo纯净版
-#!desc=解锁酷我纯净版超级会员 无损下载
-
-[Script]
-酷我会员 = type=http-response,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js,script-update-interval=0
-无损下载 = type=http-request,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/likeyi999/baby/surge/QX/kwyy.js,script-update-interval=0
-[MITM]
-hostname = %APPEND% musicpay.kuwo.cn, vip1.kuwo.cn
