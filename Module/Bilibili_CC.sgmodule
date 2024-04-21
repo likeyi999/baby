@@ -1,6 +1,0 @@
-#!name=bilibili_CC
-#!desc=B站字幕繁转中
-[Script]
-bilibili_cc = type=http-response,pattern=^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/likeyi999/baby/surge/Js/bilibili_cc.js,script-update-interval=0
-[MITM]
-hostname = %APPEND% i0.hdslb.com
