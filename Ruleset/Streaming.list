@@ -31,14 +31,6 @@ USER-AGENT,SoundCloud*
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.com
-# > Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-KEYWORD,-spotify-com
 # > TIDAL
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
@@ -89,8 +81,7 @@ DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d27xxe7juh1us6.cloudfront.net
 # DOMAIN,www.amazon.com
 DOMAIN-KEYWORD,avoddashs
-# > Apple Music TV
-DOMAIN,tv.applemusic.com
+
 # > Apple TV
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
@@ -323,18 +314,3 @@ USER-AGENT,WeTV*
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
 IP-CIDR,150.109.28.51/32,no-resolve
-# > YouTube
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
