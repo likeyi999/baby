@@ -1,4 +1,11 @@
 # 根据个人需求添加
+IP-CIDR,66.22.234.152/32,no-resolve
+DOMAIN-SUFFIX,superchatlive.com // Added for: superchatlive.com:443
+DOMAIN-SUFFIX,ossmightyenar.net // Added for: ossmightyenar.net:443
+DOMAIN-SUFFIX,yandex.com // Added for: mc.yandex.com:443
+DOMAIN-SUFFIX,stripcash.com // Added for: stripcash.com:443
+DOMAIN-SUFFIX,xlivesex.com // Added for: xlivesex.com:443
+DOMAIN,app-measurement.com 
 DOMAIN-SUFFIX,stripcdn.com
 DOMAIN-SUFFIX,flurry.com
 DOMAIN-SUFFIX,enaak-cdn.com
