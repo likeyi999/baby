@@ -1,5 +1,9 @@
 # Advertising
 # > General
+DOMAIN,ulogs.umengcloud.com
+DOMAIN,open.e.kuaishou.com
+DOMAIN,api-access.pangolin-sdk-toutiao.com
+DOMAIN,errlog.umeng.com
 DOMAIN-KEYWORD,adservice
 DOMAIN-SUFFIX,ulogs.umeng.com
 # > YOUKU
