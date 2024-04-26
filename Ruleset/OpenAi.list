@@ -24,3 +24,5 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,sentry.io
 
+# perplexity Ai
+DOMAIN-SUFFIX,perplexity.ai
