@@ -18,6 +18,15 @@ DOMAIN-SUFFIX,xlvirdr.com
 DOMAIN-SUFFIX,netflav5.com
 DOMAIN-SUFFIX,stripchat.com
 # proxy
+DOMAIN-SUFFIX,channel.io
+DOMAIN-SUFFIX,telemetrydeck.com
+DOMAIN-SUFFIX,hysteria.network
+DOMAIN-SUFFIX,l53.net
+DOMAIN-SUFFIX,fivetiu.com
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,x10hosting.com
+DOMAIN-SUFFIX,x10.mx
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN,whois.arin.net
 DOMAIN,browser-intake-datadoghq.com
