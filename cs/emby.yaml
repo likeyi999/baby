@@ -6,7 +6,7 @@ payload:
   - DOMAIN-SUFFIX,goodisp.org
   - DOMAIN-SUFFIX,9521732.xyz
   - IP-CIDR,202.61.255.248/32,no-resolve
-  - DOMAIN-SUFFIX,9191001.xyz,
+  - DOMAIN-SUFFIX,9191001.xyz
   - DOMAIN-SUFFIX,misakaf.org
   - DOMAIN-KEYWORD,pilipili
   - DOMAIN-SUFFIX,pilipiliultra.top
