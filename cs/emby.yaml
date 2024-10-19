@@ -8,7 +8,7 @@ payload:
   - IP-CIDR,202.61.255.248/32,no-resolve
   - DOMAIN-SUFFIX,9191001.xyz,
   - DOMAIN-SUFFIX,misakaf.org
-  - DOMAIN-KEYWORD,misakaf
+  - DOMAIN-KEYWORD,pilipili
   - DOMAIN-SUFFIX,pilipiliultra.top
   - DOMAIN-SUFFIX,pilipiliultra.com
   - DOMAIN-SUFFIX,7777777.buzz
